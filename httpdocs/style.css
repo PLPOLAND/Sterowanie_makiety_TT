@@ -1,0 +1,110 @@
+/* Background pattern from subtlepatterns.com */
+
+body{
+  background-color: rgb(50, 50, 50);
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+/*  background-image: url("img/escheresque_ste.png"); */
+  background-image: url("img/tlo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#content{
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sem{
+  float: left;
+  display: block;
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(57, 218, 0);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.semcz{
+  float: left;
+  display: block;
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.zw{
+  float: left;
+  display: block;
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(128, 128, 128);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.zwz{
+  float: left;
+  display: block;
+  width: 100px;
+  height: 70px;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(223, 183, 35);
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+.contener{
+  float: left;
+  display: block;
+  max-width: 110px;
+  min-height: 220px;
+  text-align: center;
+  margin-top: 10px;
+}
+#reset{
+  display: block;
+  width: 50px;
+  height: 45px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-color: rgba(0, 2, 61, 1);
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+#reset:hover {
+  display: block;
+  width: 50px;
+  height: 45px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
